@@ -1,6 +1,6 @@
 ---
 title: Computers
-layout: default
+layout: help
 lead: "Blah blah computers"
 sections:
 - ["Using the printers", "See the printing page etc"]

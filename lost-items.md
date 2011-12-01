@@ -1,7 +1,7 @@
 ---
 title: Lost items
 subtitle: What to do if you've lost or found something in Burnside
-layout: default
+layout: help
 lead: "Our office usually only deals with USBs. If you've found or lost something else, please see the building porter in room 104, although you can always stop by our office first if you want."
 sections:
 - ["Found a USB?", "If you notice an unattended USB around one of the computers in Burnside basement, please bring it to us. We will do our best to identify and notify the USB's owner. Failing that, we'll keep the USB in our office until someone claims it."]
