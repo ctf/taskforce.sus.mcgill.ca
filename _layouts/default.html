@@ -1,0 +1,16 @@
+{% include head.html %}
+
+<body>
+<div id="wrap">
+	{% include topbar.html %}
+	{% include mini-header.html %}
+	<div id="content">
+		<div class="container">
+		<h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+		<p>{{ content }}</p>
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
+</body>
+</html>

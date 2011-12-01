@@ -1,0 +1,112 @@
+// lol
+body {
+	background-image: url('../img/background.png');
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 100%;
+}
+
+#wrap {
+	background-image: url('../img/noise.png');
+	width: 100%;
+	min-height: 100%;
+	position: absolute;
+}
+
+#header {
+	padding-top: 60px;
+	.container {
+		background-image: url('../img/monitor.png');
+		background-repeat: no-repeat;
+		background-position: top right;
+		min-height: 300px;
+		.lead {
+			padding: 5px;
+			width: 560px;
+			font-size: 20px;
+			line-height: 25px;
+			color: @white;
+			text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+		}
+	}
+	img {
+		padding-top: 50px;
+	}
+	height: 330px;
+}
+
+#mini-header {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	.container {
+		background-image: url('../img/shield.png');
+		height: 195px;
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+	img {
+		position: relative;
+		top: 40px;
+	}
+	border-bottom: 1px solid @grayLight;
+}
+
+#printer-pane {
+	#gradient > .vertical(@white, @grayLighter);
+	width: 100%;
+	height: 110px;
+	border-bottom: 1px solid @grayLight;
+	h6 {
+		color: @grayDark;
+		font-size: 14px;
+	}
+	.row {
+		padding-top: 5px;
+		text-align: center;
+		.span3 {
+			padding-top: 10px;
+		}
+	}
+}
+
+#content {
+	background-color: @white;
+	padding: 50px 0px;
+	h6 {
+		color: @gray;
+	}
+	/*a {
+		color: @black;
+		font-weight: bold;
+		&:hover {
+			color: @lightBlue - #333;
+			text-decoration: none;
+		}
+	}*/
+}
+
+#footer {
+	#gradient > .vertical(#4F637E - #111, #4F637E - #252525);
+	width: 100%;
+	height: 80px;
+	p {
+		padding-top: 30px;
+		color: @white;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+	}
+	position: absolute;
+	bottom: 0px;
+}
+
+.center {
+	text-align: center;
+}
+
+.grey-bar {
+	background-color: @grayLighter;
+	.center;
+}
+
+#help-icons {
+	padding-top: 45px;
+}

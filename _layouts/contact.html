@@ -1,0 +1,40 @@
+{% include head.html %}
+
+<body>
+<div id="wrap">
+	{% include topbar.html %}
+	{% include mini-header.html %}
+	<div id="content">
+		<div class="container">
+			<div class="page-header">
+				<h1>{{ page.title }}</h1>
+			</div>
+			<div class="row">
+				<div class="span4">
+					{{ content }}
+				</div>
+				<div class="span12">
+					<form action="" class="form-stacked">
+						{% for field in page.input-fields %}
+						<div class="clearfix">
+							<label for="{{ field }}">{{ field | capitalize }}:</label>
+							<div class="input">
+								<input type="text" name="{{ field }}" id="{{ field }}" class="span6" />
+							</div>
+						</div>
+						{% endfor %}
+						<div class="clearfix">
+							<label for="message">Message:</label>
+							<div class="input">
+								<textarea name="message" id="message"  class="span10" rows="10"></textarea>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
+</body>
+</html>

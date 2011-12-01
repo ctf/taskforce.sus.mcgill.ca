@@ -1,0 +1,101 @@
+{% include head.html %}
+
+<body>
+<div id="wrap">
+	{% include topbar.html %}
+	<div id="header">
+		<div class="container">
+			<img src="img/title.png" alt="" />
+			<p class="lead">Got a question? Stop by room 1B19 in Burnside basement. Open Monday-Friday, 9am-5pm.</p>
+		</div>
+	</div>
+	<div id="printer-pane">
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+				<img src="img/printer.png" alt="" />
+				<h6>Printer statuses</h6>
+				</div>
+				<div class="span3" id="1b18a">
+				<h3>1B18</h3>
+				<span>OK (0 jobs)</span>
+				</div>
+				<div class="span3" id="1b17a">
+				<h3>1B17</h3>
+				<span>OK (0 jobs)</span>
+				</div>
+				<div class="span3" id="1b16a">
+				<h3>1B16</h3>
+				<span>OK (0 jobs)</span>
+				</div>
+				<div class="span3" id="hallway">
+				<h3>Hallway</h3>
+				<span>OK (0 jobs)</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<div class="row">
+						<div class="span4">
+							<div class="center">
+								<img src="img/people.png" alt="" />
+								<h2>Who we are</h2>
+							</div>
+							<p>CTF is a student-run group, started 11 years ago with three computers. We manage computers nad printing in Burnside, paid for by the 21st century fund by science students. Find out more about us on the <a href="about.html">about</a> page.</p>
+						</div>
+						<div class="span4">
+							<div class="center">
+								<img src="img/services.png" alt="" />
+								<h2>Our services</h2>
+							</div>
+						<p>We offer the cheapest black-and-white <a href="printing.html">printing</a> on campus, at 4 cents a page, and manage over 100 <a href="computers.html">computers</a>, both in Burnside basement and in several remote stations. We also host events - check out the <a href="events.html">events</a> page for more.</p>
+						</div>
+						<div class="span4">
+							<div class="center">
+								<img src="img/involved.png" alt="" />
+								<h2>Getting involved</h2>
+							</div>
+						<p>Interested in fixing printers etc? Come to our weekly meetings on {{ site.meetingday }} at 5:30, starting January 9th. Blah.</p>
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="span4">
+							<div class="center">
+								<img src="img/help.png" alt="" />
+								<h2>Getting help &raquo;</h2>
+							</div>
+							<p>Need help with any of our services? Feel free to come by the office blah or <a href="contact.html">email</a> us. You can also take a look at our service-specific documentation using the links on the right.</p>
+						</div>
+						<div class="span8">
+							<div class="row" id="help-icons">
+								{% for help_item in page.help %}
+								{% capture help_slug %}{{ help_item | downcase | split:" " | join:"-" }}{% endcapture %}
+								{% capture help_url %}{{ help_slug }}.html{% endcapture %}
+								<div class="span2">
+									<div class="center">
+										<a href="{{ help_url }}"><img src="img/{{ help_slug }}.png" alt="" /></a>
+										<p><a href="{{ help_url }}" class="btn danger">{{ help_item }}</a></p>
+									</div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="span4 grey-bar">
+				<h6>Related sites</h6>
+				<p>SUS</p>
+				<p>McGill?</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
+</body>
+</html>
