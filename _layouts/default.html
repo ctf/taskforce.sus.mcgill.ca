@@ -6,8 +6,26 @@
 	{% include mini-header.html %}
 	<div id="content">
 		<div class="container">
-		<h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
-		<p>{{ content }}</p>
+			<h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+			{{ page.lead | markdownify }}
+			{% for section in page.sections %}
+			{% capture section_title %}{{ section | first }}{% endcapture %}
+			{% capture section_content %}{{ section | last | markdownify | replace:'MEETING_DAY', site.meeting_day | replace:'MEETING_TIME', site.meeting_time }}{% endcapture %}
+			<div class="row">
+				{% comment %} so hacky lol {% endcomment %}
+				{% capture which_side %}{% cycle 'left', 'right' %}{% endcapture %}
+				{% if which_side == 'left' %}
+					{% include side-icon.html %}
+				{% endif %}
+				<div class="span14">
+					<h3>{{ section_title }}</h3>
+					{{ section_content }}
+				</div>
+				{% if which_side == 'right' %}
+					{% include side-icon.html %}
+				{% endif %}
+			</div>
+			{% endfor %}
 		</div>
 	</div>
 	{% include footer.html %}
