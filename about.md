@@ -16,7 +16,7 @@ Check out the [contact](contact.html) page for how to get in touch with us.
 * **Chair:** Benjamin Webber
 * **Co-chair:** Daniel Kwak
 * **Server admin:** Qikuan Zhou
-* **Environmental coordinator:** Ariel Liu
+* **Environmental coordinator:** Clarence Leung
 * **Public relations officer:** Suzie Guo
 * **Webmaster:** Wendy Liu
 * **Events coordinator:** Saurin Shah
