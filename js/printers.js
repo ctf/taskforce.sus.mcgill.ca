@@ -24,7 +24,19 @@ $(document).ready(function() {
 				// Set the number of jobs
 				var jobsElement = $(printerSelector).find('.jobs');
 				if (jobsElement.text() !== printerData.jobs) { // both are strings
+					var pluralElement = $(printerSelector).find('.plural');
 					$(jobsElement).text(printerData.jobs);
+
+					// Check if we need to change the pluralisation of "job"
+					if (printerData.jobs == '1') {
+						if ($(pluralElement).text() == 's') {
+							$(pluralElement).text('');
+						}
+					} else {
+						if ($(pluralElement).text() == '') {
+							$(pluralElement).text('s');
+						}
+					}
 				}
 			}
 

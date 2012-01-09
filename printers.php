@@ -6,7 +6,7 @@
 $array = array(
 	'backup' => array(
 		'state' => mt_rand(0, 1),
-		'jobs' => mt_rand(0, 5),
+		'jobs' => mt_rand(0, 1),
 	),
 	'1b18a' => array(
 		'state' => mt_rand(0, 1),
