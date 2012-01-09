@@ -1,15 +1,6 @@
 ---
 title: Contact us
-layout: contact
-input-fields: [name, email, subject]
+layout: default
 ---
 
-<!--This crap goes in the sidebar-->
-
-Feel free to contact us through this form if:
-
-* You want to find out more about CTF
-* Blah
-* Blah
-
-If you're on campus, don't hesitate to drop by the [office](the-office.html) (room 1B19 in Burnside basement).
+If you're on campus, the easiest way to contact us would be to drop by the [office](the-office.html) (room 1B19 in Burnside basement). Members have office hours from 9am-5pm during the week, and are often there late into the night and on weekends. You can also send an email to our mailing list at taskforce@sus.mcgill.ca or call our office at (514) 398-5843.

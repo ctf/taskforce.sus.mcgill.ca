@@ -3,4 +3,4 @@ title: Events
 layout: default
 ---
 
-LANimal seems to be our only event? Some paragraph about that. Maybe a graphic?
+CTF hosts LANimal, a gaming event with all proceeds going to charity. More information about that is forthcoming. In the meantime, you can find the website showcasing last year's results [here](http://lanimal.sus.mcgill.ca/).
