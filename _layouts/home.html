@@ -38,24 +38,22 @@
 	</div>
 	<div id="content">
 		<div class="container">
-			<div class="row">
-				<div class="span12">
 					<div class="row">
-						<div class="span4">
+						<div class="span-one-third">
 							<div class="center">
 								<img src="img/people.png" alt="" />
 								<h2>Who we are</h2>
 							</div>
 							<p>{{ page.who-we-are | markdownify }}</p>
 						</div>
-						<div class="span4">
+						<div class="span-one-third">
 							<div class="center">
 								<img src="img/services.png" alt="" />
 								<h2>Our services</h2>
 							</div>
 						<p>{{ page.our-services | markdownify }}</p>
 						</div>
-						<div class="span4">
+						<div class="span-one-third">
 							<div class="center">
 								<img src="img/involved.png" alt="" />
 								<h2>Getting involved</h2>
@@ -65,15 +63,16 @@
 					</div>
 					<br />
 					<div class="row">
-						<div class="span4">
+						<div class="span-one-third">
 							<div class="center">
 								<img src="img/help.png" alt="" />
 								<h2>Getting help &raquo;</h2>
 							</div>
 							<p>{{ page.getting-help | markdownify }}</p>
 						</div>
-						<div class="span8">
+						<div class="span-two-thirds">
 							<div class="row" id="help-icons">
+								<div class="span1">&nbsp;</div>
 								{% for help_item in page.help %}
 								{% capture help_slug %}{{ help_item | downcase | split:" " | join:"-" }}{% endcapture %}
 								{% capture help_url %}{{ help_slug }}.html{% endcapture %}
@@ -87,14 +86,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="span4 grey-bar">
-				<h6>Related sites</h6>
-				{% for related in page.related-sites %}
-				<p>{{ related }}</p>
-				{% endfor %}
-				</div>
-			</div>
 		</div>
 	</div>
 	{% include footer.html %}
