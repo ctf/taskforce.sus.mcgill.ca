@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var printers = ['1b18a', '1b17a', '1b16a', 'backup'];
-	var ajaxURL = '/taskforce/printers.php';
+	var ajaxURL = 'printers.php';
 	var updatePrinters = function() {
 		$.getJSON(ajaxURL, function(data) {
 			for (i in printers) {
