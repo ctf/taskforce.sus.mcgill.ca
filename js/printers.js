@@ -19,9 +19,9 @@ $(document).ready(function() {
 				// If the state is 0, make it OK; else, DOWN
 				var stateElement = $(printerSelector).find('.state');
 				var state = printerData.state;
-				var changeState = (stateElement.hasClass('ok') && state == 1) || (stateElement.hasClass('down') && state == 0);
+				var changeState = (stateElement.hasClass('ok') && state == '1') || (stateElement.hasClass('down') && state == '0');
 				if (changeState) {
-					if (state == 1) {
+					if (state == '1') {
 						// Printer has gone down - change the text and the class
 						$(stateElement).text('DOWN').removeClass('ok').addClass('down');
 					} else {
