@@ -1,8 +1,9 @@
 <?php
 
-//$raw = file_get_contents("http://staff.sus.mcgill.ca/services/getPrinterStatus.php?", false, NULL);
+$raw = file_get_contents("http://staff.sus.mcgill.ca/services/getPrinterStatus.php?", false, NULL);
+echo $raw;
 
-
+/*
 $array = array(
 	'backup' => array(
 		'state' => mt_rand(0, 1),
@@ -23,6 +24,6 @@ $array = array(
 );
 
 echo json_encode($array);
-
+*/
 
 ?>
