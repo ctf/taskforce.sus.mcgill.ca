@@ -3,6 +3,14 @@ $(document).ready(function() {
 	var ajaxURL = 'printers.php';
 	var updatePrinters = function() {
 		$.getJSON(ajaxURL, function(data) {
+			if (data == null) {
+				// Not working - possibly network problems; try again in 30 seconds
+				setTimeout(function() {
+					updatePrinters();
+				}, 30000);
+				return;
+			}
+
 			for (i in printers) {
 				var printer = printers[i];
 				var printerData = data[printer];
