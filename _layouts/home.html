@@ -92,7 +92,7 @@
 							<div class="row" id="help-icons">
 								<div class="span1">&nbsp;</div>
 								{% for help_item in page.help %}
-								{% capture help_slug %}{{ help_item | downcase | split:" " | join:"-" }}{% endcapture %}
+								{% capture help_slug %}{{ help_item | slugify }}{% endcapture %}
 								{% capture help_url %}{{ help_slug }}.html{% endcapture %}
 								<div class="span2">
 									<div class="center">
