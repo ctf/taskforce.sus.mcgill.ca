@@ -11,7 +11,7 @@ def cs():
 
 def prepare():
 	local('jekyll')
-	local('/var/www/taskforce/node_modules/less/bin/lessc css/styles.less > _site/css/style.css')
+	local('/var/www/taskforce/node_modules/less/bin/lessc css/styles.less -x > _site/css/style.css')
 	local('rm _site/css/*.less')
 
 def archive():
