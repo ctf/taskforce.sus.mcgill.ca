@@ -1,2 +1,5 @@
 *.swp
 _site
+*.pyc
+*.tar.gz
+node_modules
