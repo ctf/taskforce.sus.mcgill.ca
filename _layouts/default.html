@@ -7,7 +7,7 @@
 	<div id="content">
 		<div class="container markdown">
 			<h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
-			{{ content | replace:'MEETING_DAY', site.meeting_day | replace:'MEETING_TIME', site.meeting_time }}
+			{{ content }}
 		</div>
 	</div>
 	{% include footer.html %}

@@ -10,7 +10,7 @@
 			{{ page.lead | markdownify }}
 			{% for section in page.sections %}
 			{% capture section_title %}{{ section | first }}{% endcapture %}
-			{% capture section_content %}{{ section | last | markdownify | replace:'MEETING_DAY', site.meeting_day | replace:'MEETING_TIME', site.meeting_time }}{% endcapture %}
+			{% capture section_content %}{{ section | last | markdownify }}{% endcapture %}
 			<div class="row">
 				{% comment %} so hacky lol {% endcomment %}
 				{% capture which_side %}{% cycle 'left', 'right' %}{% endcapture %}
