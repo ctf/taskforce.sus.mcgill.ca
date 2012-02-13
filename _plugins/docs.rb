@@ -26,7 +26,7 @@ module Jekyll
       end
       # Now go through them and put in the necessary divs and shit
       left = true
-      for section in sections
+      sections.each{|section|
         if left
           left_stuff = get_icon_html(section[:slug])
           right_stuff = ''
@@ -37,7 +37,7 @@ module Jekyll
         lines[section[:start]] = '<div class="row">' + left_stuff + '<div class="span14"><h3 id="' + section[:slug] + '">' + section[:title] + ' <small><a href="#' + section[:slug] + '">#</a></small></h3>'
         lines[section[:end]-1] = "</div>" + right_stuff + "</div>"
         left = !left
-      end
+      }
       lines.join("\n")
     end
 
