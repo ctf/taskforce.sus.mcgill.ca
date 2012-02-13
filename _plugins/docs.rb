@@ -22,14 +22,22 @@ module Jekyll
 			end
 			# Now go through them and put in the necessary divs and shit
 			sections.each_slice(2) do |slice|
-				lines[slice[0][:start]] = '<div class="row">' + get_icon_html(slice[0][:slug]) + '<div class="span14"><h3 id="' + slice[0][:slug] + '">' + slice[0][:title] + ' <small><a href="#' + slice[0][:slug] + '">#</a></small></h3>'
-				lines[slice[0][:end]-1] = "</div></div>"
+				lines[slice[0][:start]] = get_header(slice[0][:slug],slice[0][:title],get_icon_html(slice[0][:slug]))
+				lines[slice[0][:end]-1] = get_tailer
 				if slice[1]
-					lines[slice[1][:start]] = '<div class="row"><div class="span14"><h3 id="' + slice[1][:slug] + '">' + slice[1][:title] + ' <small><a href="#' + slice[1][:slug] + '">#</a></small></h3>'
-					lines[slice[1][:end]-1] = "</div>" + get_icon_html(slice[1][:slug]) + "</div>"
+					lines[slice[1][:start]] = get_header(slice[0][:slug],slice[0][:title])
+					lines[slice[1][:end]-1] = get_tailer(get_icon_html(slice[1][:slug]))
 				end
 			end
 			lines.join("\n")
+		end
+
+		def get_header(slug,title,icon = '')
+			'<div class="row">' + icon + '<div class="span14"><h3 id="' + slug + '">' + title + ' <small><a href="#' + slug + '">#</a></small></h3>'
+		end
+
+		def get_tailer(icon = '')
+			"</div>" + icon + "</div>"
 		end
 
 		def get_icon_html(slug)
