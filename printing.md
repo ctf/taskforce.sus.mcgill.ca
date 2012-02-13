@@ -16,21 +16,25 @@ Quota
 
 Each black-and-white page costs four credits, and each credit is equivalent to one cent. If a print job causes you to exceed your quota, the job will still proceed, but you won't be able to print anything else until you've added enough credits. To purchase credits, just drop by the office with exact change for the desired amount, as we can't guarantee that we'll have change. Any quota you purchase is carried over to the next semester if unused (the 1500 free print credits provided each semester are excluded from this)
 
-\n\nNote that that the cost of printing is four cents _per page_, meaning that printing a double-sided sheet of paper costs 8 cents.
+Note that that the cost of printing is four cents _per page_, meaning that printing a double-sided sheet of paper costs 8 cents.
 
 The process of printing
 -----------------------
 
 **Section under construction**
 
-\n\n* Where to print (describe the printers and their locations)
-\n * How to select a printer (include screenshots)
-\n * Configuring options (stapling, paper size, double-sided printing, etc - include screenshots)
+{% comment %}
+* Where to print (describe the printers and their locations)
+* How to select a printer (include screenshots)
+* Configuring options (stapling, paper size, double-sided printing, etc - include screenshots)
+{% endcomment %}
 
 Printer troubleshooting
 -----------------------
 
 **Section under construction**
 
-\n\n* Problems with the printer (out of paper, jamming, load custom tray and other errors)
-\n* Problems with the job (page is cut off, not double-sided, too light, etc)
+{% comment %}
+* Problems with the printer (out of paper, jamming, load custom tray and other errors)
+* Problems with the job (page is cut off, not double-sided, too light, etc)
+{% endcomment %}
