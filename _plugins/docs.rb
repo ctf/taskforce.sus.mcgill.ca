@@ -12,8 +12,8 @@ module Jekyll
 			sections_raw = find_sections(render)
 			lines = render.split("\n")
 			sections = sections_raw.map do |section_raw|
-				section_title = section_raw[4...-5]
-				{:title => section_title, :slug => real_slugify(section_title), :start => lines.index(section_raw)}
+				section_title = 
+				{:title => section_raw[4...-5], :slug => real_slugify(section_raw[4...-5]), :start => lines.index(section_raw)}
 			end
 			# Put in the end indices
 			sections[-1][:end] = lines.length - 1
