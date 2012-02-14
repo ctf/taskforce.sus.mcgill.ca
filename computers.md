@@ -55,12 +55,12 @@ Here are the specifications of the currently deployed Dell Optiplex 990s:
 Locations
 ---------
 
-At present, we are mainly located in the Burnside basement. Additional remote stations of between 6 and 14 computers can be found in:
+At present, we are mainly located in Burnside basement, with 14 computers in the hallway, 24 computers in each of 1B16 and 1B17, and 12 computers in 1B18. Additional remote stations of between 6 and 14 computers can be found in:
 
 * Duff Microbiology,
 * Maass Chemistry,
 * Rutherford Physics, and
-* Stewart Biology
+* Stewart Biology.
 
 Computer lab rules
 ------------------
