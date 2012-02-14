@@ -3,54 +3,78 @@ title: Computers
 layout: help
 ---
 
-CTF operates over 70 computers for use by McGill students in Burnside basement, and dozens more in various remote stations. Most of the computers in Burnside are contained in the computer labs (rooms 1B16, 1B17 and 1B18), with the remaining 14 in the hallway across from the elevators. Note that this page is still under construction - please check frequently for updates.
+CTF operates over 70 computers for use by McGill students in Burnside basement, and dozens more at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
 
 Using the printers
 ------------------
 
-See the [printing](printing.html) documentation.
+See [Printing](printing.html).
 
 Who can use them?
 -----------------
 
-Students in the faculty of science can log in using their McGill email and password, because they pay the SUS 21st century fund. Out-of-faculty students (this includes students in Nursing, Agricultural Sciences, and Kinesiology) can open an account with us for $30 (includes 1500 [print credits](printing.html)); otherwise, they will be able to log in but won't have access to the Internet. Note that the $30 fee for out-of-faculty students must be repaid every semester.
+All McGill students can use our computers, but some restrictions apply to non-Science or Arts & Science students. Science and Arts & Science students contribute directly to the SUS 21st Century Fund. Students from other faculties (including Nursing, Agricultural Sciences, and Kinesiology) can open an account with us for $30, which includes 1500 [printing credits](printing.html). The $30 fee also grants access to the computer labs and Burnside Hall after hours, upon request. The fee must be repaid each semester to maintain access.
 
-Changing your password
-----------------------
+Logging in
+----------
 
-You can change your password by accessing your personal menu in [Minerva](https://banweb.mcgill.ca). Note that this will change your password for most other McGill services as well. If you've tried to log onto a computer with the wrong password several times and have been locked out, you'll have to visit ICS on the first floor of Burnside, room 112. They're open Monday to Friday, 9 to 5.
+Your login credentials are your [McGill Username and McGill Password](http://kb.mcgill.ca/it/easylink/article.html?id=1006). To change your password, please see [the McGill IT Knowledgebase](http://kb.mcgill.ca/it/easylink/article.html?id=1025). If you've tried to log onto one of our computers several times unsuccessfully, your account may be locked by McGill IT Services. If this is the case, you will need to [contact the ICS Service Desk](http://kb.mcgill.ca/it/easylink/article.html?id=1797).
 
 Storage space
 -------------
 
-All of our computers provide access to three shared network drives on which students can save personal documents: the P drive, the W drive, and the I drive. Students get 100 MB of disk space on the P drive (provided by McGill) and 150 MB on the I and W drives combined (provided by CTF). If you run out of storage space, you may find programs starting to behave erratically; in that case, you should try deleting old or unused files.
+All of our computers provide access to three shared network drives on which students can save personal documents: the campus-wide `P:` drive, as well as the `W:` and `I:` drives, which are hosted by us. On top of the 100 MB provided by McGill to all students, our users receive 150 MB on the `I:` and `W:` drives combined. If you run out of storage space, you may find programs starting to behave erratically; in that case, you should try deleting old or unused files.
 
 Installed programs
 ------------------
 
-**Section under construction**{% comment %} List the most commonly-used ones (with icons) and explain the policy on installing new things (you can't, run it off your USB or come by the office and we'll see if we can install it for you temporarily). {% endcomment %}
+Our computers have the following supported software installed for all Science students:
+
+* Firefox, Google Chrome, and Internet Explorer
+* Microsoft Office (Word, Excel, PowerPoint, and OneNote)
+* Notepad++ and Geany
+* MiKTeX, TeXnicCentre, and LyX
+
+Users may not install software on our computers. If you have a piece of software you would like to run, you may try a portable version run from a USB stick. We are always looking to improve our software selection. If you have a recommendation, let us know by [email or in person](contact.html) and we will consider installing it on our computers.
 
 System information
 ------------------
 
-**Section under construction** {% comment %} List the operating systems used (XP, 7) and give some hardware information for each of the different generations. [Source](http://taskforce.sus.mcgill.ca/index.php?option=com_content&task=view&id=107&Itemid=66) (out-of-date, but looks reliable) {% endcomment %}
+We are currently in the middle of a deployment of brand-new, powerful computers to the Burnside basement and remote stations. We anticipate a complete overhaul by the end of the school year.
+
+Here are the specifications of the currently deployed Dell Optiplex 990s:
+
+* Intel i5 3.1 GHz CPU
+* 4 GB RAM
+* 1 GB Radeon HD 6670 video card
+* 250 GB hard disk
+* 16X DVD+/RW optical drive
+* Windows 7 Professional
+* Widescreen 23&quot; monitors
 
 Locations
 ---------
 
-**Section under construction**{% comment %} Display maps of locations of computers, including remote stations. {% endcomment %}
+At present, we are mainly located in the Burnside basement. Additional remote stations of between 6 and 14 computers can be found in:
+
+* Duff Microbiology,
+* Maass Chemistry,
+* Rutherford Physics, and
+* Stewart Biology
 
 Computer lab rules
 ------------------
 
-No food or drinks are allowed in the computer labs. Offenders will find themselves locked out of CTF computers for a week. Other than that, there are no real rules; just be courteous to other students in the labs and be careful with the equipment.
+No food or drinks are allowed in the computer labs. Offenders will find themselves locked out of CTF computers for one week. We ask you to be courteous to other students in the labs and treat our equipment gently.
 
 Computer lab hours
 ------------------
 
-Students in the Faculty of Science have 24/7 card access to the computer labs in Burnside, as well as to the building as a whole. For out-of-faculty students, the computer labs are only unlocked between 9am and 5pm. Students with no card access will only be able to access the computer labs between those times, and can only enter the building between 6am and 9pm, unless, of course, accompanied by a student who does have card access.{% comment %} not sure {% endcomment %}
+Students in the Faculty of Science have 24/7 card access to Burnside and our computer labs. For out-of-faculty students, the computer labs are only unlocked between 9am and 5pm. Students with no card access will only be able to access the computer labs between those times. Burnside is open to the public between 6 a.m. and 9 p.m.
+
+Upon request, purchasing an account with us grants the same 24/7 access to Burnside and the labs that Science students enjoy.
 
 Computer problems
 -----------------
 
-If you're having problems with your computer, come by the office and we'll try to send someone to take a look at it for you. If you're at a remote station, you can send us an email describing your problem.
+If you're having problems with your computer, come by the office and we'll try to send someone to take a look at it for you. If you're at a remote station, please [send us an email](contact.html) describing your problem.
