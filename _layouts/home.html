@@ -7,8 +7,7 @@
 	<div id="header">
 		<div class="container">
 			<img src="img/title.png" alt="" />
-			{% comment %} page.content is the same as content except no markdown parsing is done {% endcomment %}
-			<p class="lead">{{ page.content }}</p>
+			<p class="lead">{{ page.lead }}</p>
 		</div>
 	</div>
 	<div id="printer-pane">
@@ -20,34 +19,16 @@
 				</div>
 				<div class="span12">
 					<div class="row">
-						<div class="span2" id="printer-1b18a">
-						<h3>1B18a</h3>
+						{% for printer in page.printers %}
+						<div class="span2" id="printer-{{ printer }}">
+						<h3>{{ printer }}</h3>
 						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
 						</div>
-						<div class="span2" id="printer-1b18b">
-						<h3>1B18b</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
-						</div>
-						<div class="span2" id="printer-1b17a">
-						<h3>1B17</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
-						</div>
-						<div class="span2" id="printer-1b16a">
-						<h3>1B16a</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
-						</div>
-						<div class="span2" id="printer-1b16b">
-						<h3>1B16b</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
-						</div>
-						<div class="span2" id="printer-backup">
-						<h3>Hallway</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
-						</div>
+						{% endfor %}
 					</div>
 					<noscript>
 						<div class="row">
-							<p>Unable to get printer information! Please enable Javascript or use another browser.</p>
+							<p>{{ page.no_js }}</p>
 						</div>
 					</noscript>
 				</div>
@@ -56,54 +37,24 @@
 	</div>
 	<div id="content">
 		<div class="container">
-					<div class="row">
-						<div class="span-one-third">
+			<div class="row">
+			{% homepage %}{{ content }}{% endhomepage %}
+				<div class="span-two-thirds">
+					<div class="row" id="help-icons">
+						<div class="span1">&nbsp;</div>
+						{% for help_item in site.help_pages %}
+						{% capture help_slug %}{{ help_item | slugify }}{% endcapture %}
+						{% capture help_url %}{{ help_slug }}.html{% endcapture %}
+						<div class="span2">
 							<div class="center">
-								<img src="img/people.png" alt="" />
-								<h2>Who we are</h2>
+								<a href="{{ help_url }}"><img src="img/{{ help_slug }}.png" alt="" /></a>
+								<p><a href="{{ help_url }}" class="btn danger">{{ help_item }}</a></p>
 							</div>
-							<p>{{ page.who-we-are | markdownify }}</p>
 						</div>
-						<div class="span-one-third">
-							<div class="center">
-								<img src="img/services.png" alt="" />
-								<h2>Our services</h2>
-							</div>
-						<p>{{ page.our-services | markdownify }}</p>
-						</div>
-						<div class="span-one-third">
-							<div class="center">
-								<img src="img/involved.png" alt="" />
-								<h2>Getting involved</h2>
-							</div>
-						<p>{{ page.getting-involved | markdownify }}</p>
-						</div>
+						{% endfor %}
 					</div>
-					<br />
-					<div class="row">
-						<div class="span-one-third">
-							<div class="center">
-								<img src="img/help.png" alt="" />
-								<h2>Getting help &raquo;</h2>
-							</div>
-							<p>{{ page.getting-help | markdownify }}</p>
-						</div>
-						<div class="span-two-thirds">
-							<div class="row" id="help-icons">
-								<div class="span1">&nbsp;</div>
-								{% for help_item in page.help %}
-								{% capture help_slug %}{{ help_item | slugify }}{% endcapture %}
-								{% capture help_url %}{{ help_slug }}.html{% endcapture %}
-								<div class="span2">
-									<div class="center">
-										<a href="{{ help_url }}"><img src="img/{{ help_slug }}.png" alt="" /></a>
-										<p><a href="{{ help_url }}" class="btn danger">{{ help_item }}</a></p>
-									</div>
-								</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	{% include footer.html %}

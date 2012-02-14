@@ -2,7 +2,7 @@
 # left and right sides
 
 module Jekyll
-	class TestTag < Liquid::Block
+	class IconsTag < Liquid::Block
 		def initialize(tag_name, text, tokens)
 			super
 		end
@@ -52,6 +52,30 @@ module Jekyll
 			text.scan(/<h2>[^<]+<\/h2>/)
 		end
 	end
+
+	class HomepageTag < Liquid::Block
+		def initialize(tag_name, text, tokens)
+			super
+		end
+
+		def render(content)
+			text = super
+			@lines = text.split("\n")
+			@sections_raw = text.scan(/<h2>[^<]+<\/h2>/)
+			get_column_html(*get_section_stuff(0)) + get_column_html(*get_section_stuff(1)) + get_column_html(*get_section_stuff(2)) + '</div><br />' + '<div class="row">' + get_column_html(*get_section_stuff(3))
+		end
+
+		def get_section_stuff(i)
+			end_index = i == 3 ? -1 : @lines.index(@sections_raw[i+1])-1
+			[@sections_raw[i], @lines[@lines.index(@sections_raw[i])+1..end_index]]
+		end
+
+		def get_column_html(section_title, content)
+			slug = real_slugify(section_title[4..-6])
+			'<div class="span-one-third"><div class="center"><img src="img/' + slug + '.png" alt="" />' + section_title + '</div>' + content.join("\n") + '</div>'
+		end
+	end
 end
 
-Liquid::Template.register_tag('icons', Jekyll::TestTag)
+Liquid::Template.register_tag('icons', Jekyll::IconsTag)
+Liquid::Template.register_tag('homepage', Jekyll::HomepageTag)
