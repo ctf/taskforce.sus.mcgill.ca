@@ -13,6 +13,8 @@ def prepare():
 	local('jekyll')
 	local('lessc css/styles.less -x > _site/css/style.css')
 	local('rm _site/css/*.less')
+	local('rm -rf _site/.git')
+	local('rm _site/fabfile.py _site/fabfile.pyc')
 
 def archive():
 	local('tar cvzf taskforce.tar.gz _site')
@@ -22,6 +24,7 @@ def transfer():
 	run('tar xvzf taskforce.tar.gz')
 	run('rm -rf public_html/taskforce')
 	run('mv _site public_html/taskforce')
+	local('rm taskforce.tar.gz')
 
 def deploy():
 	prepare()
