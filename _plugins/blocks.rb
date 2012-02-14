@@ -54,17 +54,15 @@ module Jekyll
 			text = super
 			@lines = text.split("\n")
 			@sections_raw = text.scan(/<h2>[^<]+<\/h2>/)
-			get_column_html(*get_section_stuff(0)) + get_column_html(*get_section_stuff(1)) + get_column_html(*get_section_stuff(2)) + '</div><br />' + '<div class="row">' + get_column_html(*get_section_stuff(3))
+			get_column_html(0) + get_column_html(1) + get_column_html(2) + '</div><br />' + '<div class="row">' + get_column_html(3)
 		end
 
-		def get_section_stuff(i)
+		def get_column_html(i)
+			section_title = @sections_raw[i]
 			end_index = i == 3 ? -1 : @lines.index(@sections_raw[i+1])-1
-			[@sections_raw[i], @lines[@lines.index(@sections_raw[i])+1..end_index]]
-		end
-
-		def get_column_html(section_title, content)
+			section_content = @lines[@lines.index(@sections_raw[i])+1..end_index].join("\n")
 			slug = real_slugify(section_title[4..-6])
-			'<div class="span-one-third"><div class="center"><img src="img/' + slug + '.png" alt="" />' + section_title + '</div>' + content.join("\n") + '</div>'
+			'<div class="span-one-third"><div class="center"><img src="img/' + slug + '.png" alt="' + slug + '" />' + section_title + '</div>' + section_content + '</div>'
 		end
 	end
 end
