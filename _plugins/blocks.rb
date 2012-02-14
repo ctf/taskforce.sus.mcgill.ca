@@ -21,7 +21,7 @@ module Jekyll
 				lines[slice[0][:start]] = get_header(slice[0][:slug],slice[0][:title],get_icon_html(slice[0][:slug]))
 				lines[slice[0][:end]-1] = get_tailer
 				if slice[1]
-					lines[slice[1][:start]] = get_header(slice[0][:slug],slice[0][:title])
+					lines[slice[1][:start]] = get_header(slice[1][:slug],slice[1][:title])
 					lines[slice[1][:end]-1] = get_tailer(get_icon_html(slice[1][:slug]))
 				end
 			end
