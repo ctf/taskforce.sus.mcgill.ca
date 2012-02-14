@@ -1,7 +1,5 @@
 from fabric.api import local, run, env
 
-PATH_TO_LESS = '/var/www/taskforce/node_modules/less/bin/lessc'
-
 # Usage: fab cs deploy to deploy to http://cs.mcgill.ca/~wliu65/taskforce
 
 # Environments
@@ -13,7 +11,7 @@ def cs():
 
 def prepare():
 	local('jekyll')
-	local('%s css/styles.less -x > _site/css/style.css' % PATH_TO_LESS)
+	local('lessc css/styles.less -x > _site/css/style.css')
 	local('rm _site/css/*.less')
 
 def archive():
