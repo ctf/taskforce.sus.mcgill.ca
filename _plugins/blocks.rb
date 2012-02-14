@@ -3,10 +3,6 @@
 
 module Jekyll
 	class IconsTag < Liquid::Block
-		def initialize(tag_name, text, tokens)
-			super
-		end
-
 		def render(context)
 			render = super
 			sections_raw = find_sections(render)
@@ -54,10 +50,6 @@ module Jekyll
 	end
 
 	class HomepageTag < Liquid::Block
-		def initialize(tag_name, text, tokens)
-			super
-		end
-
 		def render(content)
 			text = super
 			@lines = text.split("\n")
