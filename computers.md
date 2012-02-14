@@ -32,10 +32,12 @@ Our computers have the following supported software installed for all Science st
 
 * Firefox, Google Chrome, and Internet Explorer
 * Microsoft Office (Word, Excel, PowerPoint, and OneNote)
-* Notepad++ and Geany
+* Notepad++, Eclipse and Geany
+* PuTTY and WinSCP
+* Pidgin (an instant messaging client)
 * MiKTeX, TeXnicCentre, and LyX
 
-Users may not install software on our computers. If you have a piece of software you would like to run, you may try a portable version run from a USB stick. We are always looking to improve our software selection. If you have a recommendation, let us know by [email or in person](contact.html) and we will consider installing it on our computers.
+Other software is installed as well&mdash;you can find a list of installed programs using the Start menu. Users may not install software on our computers. If you have a piece of software you would like to run, you may try a portable version run from a USB stick. We are always looking to improve our software selection. If you have a recommendation, let us know by [email or in person](contact.html) and we will consider installing it on our computers.
 
 System information
 ------------------
