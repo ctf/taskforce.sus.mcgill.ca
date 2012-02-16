@@ -29,7 +29,7 @@ module Jekyll
 		end
 
 		def get_header(slug,title,icon = '')
-			'<div class="row">' + icon + '<div class="span14"><h3 id="' + slug + '">' + title + ' <small><a href="#' + slug + '">#</a></small></h3>'
+			'<div class="row">' + icon + '<div class="span14"><h3 id="' + slug + '"><a href="#' + slug + '">' + title + '</a></h3>'
 		end
 
 		def get_tailer(icon = '')
