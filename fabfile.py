@@ -21,12 +21,15 @@ def archive():
 
 def transfer():
 	local('scp taskforce.tar.gz %s:~' % env.hosts[0])
+	local('rm taskforce.tar.gz')
+
+def unpack():
 	run('tar xvzf taskforce.tar.gz')
 	run('rm -rf public_html/taskforce')
 	run('mv _site public_html/taskforce')
-	local('rm taskforce.tar.gz')
 
 def deploy():
 	prepare()
 	archive()
 	transfer()
+	unpack()
