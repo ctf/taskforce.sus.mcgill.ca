@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+identify $1
+pngcrush $1 $1-lol &> /dev/null
+mv $1-lol $1
+identify $1
