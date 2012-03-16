@@ -24,9 +24,9 @@ If you have fabric installed, you can use the included `fabfile.py` (just run `p
 Contributing
 ------------
 
-Fork/clone this repository on either GitHub or the CTF Gitorious and send a pull/merge request when you're done.
+Fork/clone this repository on either GitHub or the CTF Gitorious and send a pull/merge request when you're done. See the [Contributor guidelines](/dellsystem/ctf-website/wiki/Contributor-guidelines) page on the wiki for more information.
 
 Licensing
 ---------
 
-The content belongs to Computer Taskforce. The images were taken from the KDE and Gnome icon sets, or were released under a license that permits usage without attribution, or were created by myself and released under the same sort of license. The Bootstrap and jQuery files are available under their respective licenses (well, Apache for both), and the rest (Javascript, Ruby) of the code is MIT-licensed.
+The content belongs to Computer Taskforce. The images were taken from the KDE and Gnome icon sets, or were released under a license that permits usage without attribution, or were created by myself and released under the same sort of license (see the [Image sources](/dellsystem/ctf-website/wiki/Image-sources) page for details). The Bootstrap and jQuery files are available under their respective licenses (well, Apache for both), and the rest (Javascript, Ruby) of the code is MIT-licensed.
