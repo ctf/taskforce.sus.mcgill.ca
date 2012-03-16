@@ -1,0 +1,47 @@
+{% include head.html %}
+
+<body>
+<div id="wrap">
+	{% include topbar.html %}
+	{% include mini-header.html %}
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="span8">
+					<h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1>
+					{{ content }}
+					<h2>Games</h2>
+					<br />
+					<table class="bordered-table">
+					<thead>
+						<tr>
+							<th>Game</th>
+							<th>Tournament type</th>
+						</tr>
+					</thead>
+					<tbody>
+					{% for game in page.games %}
+						<tr>
+							<td><strong>{{ game | first }}</strong></td>
+							<td>{% capture tournament %}{{ game | last }}{% endcapture %}{% if tournament != "" %}{{ tournament }}v{{ tournament }} tournament{% else %}--{% endif %}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+					</table>
+
+					<div class="pull-right">
+						<a class="btn" href="http://www.facebook.com/events/25824817255484/">View the Facebook event page</a>
+						<a class="btn success" href="https://docs.google.com/spreadsheet/viewform?formkey=dC1iVWlSUHhYWmVjVjhqS25QYUx6b1E6MQ">Register now</a>
+					</div>
+				</div>
+
+				<div class="span8">
+					<a href="img/lanimal-poster.jpg"><img src="img/lanimal-thumb.jpg" title="This year's LANimal poster - design by Rose Liu" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% include footer.html %}
+</div>
+</body>
+</html>
