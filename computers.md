@@ -23,7 +23,7 @@ Your login credentials are your [McGill Username and McGill Password](http://kb.
 Storage space
 -------------
 
-All of our computers provide access to three shared network drives on which students can save personal documents: the campus-wide `P:` drive, as well as the `W:` and `I:` drives, which are hosted by us. On top of the 100 MB provided by McGill to all students, our users receive 150 MB on the `I:` and `W:` drives combined. If you run out of storage space, you may find programs starting to behave erratically; in that case, you should try deleting old or unused files.
+All of our computers provide access to two shared network drives on which students can save personal documents: the campus-wide `P:` drive, and the `M:` drive, which is hosted by us. On top of the 100 MB provided by McGill to all students, our users receive 150 MB on the `M:` drive. If you run out of storage space, you may find programs starting to behave erratically; in that case, you should try deleting old or unused files.
 
 Installed programs
 ------------------
