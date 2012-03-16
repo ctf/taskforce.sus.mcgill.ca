@@ -33,7 +33,11 @@ Games
 </tbody>
 </table>
 
-More information about the tournament and signing up is forthcoming.
+<div class="pull-right">
+	<a class="btn" href="http://www.facebook.com/events/25824817255484/">View the Facebook event page</a>
+	<a class="btn success" href="https://docs.google.com/spreadsheet/viewform?formkey=dC1iVWlSUHhYWmVjVjhqS25QYUx6b1E6MQ">Register now</a>
+</div>
+<br clear="all">
 
 ***
 
