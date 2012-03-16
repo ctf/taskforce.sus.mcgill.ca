@@ -17,9 +17,11 @@ Building
 --------
 
 * Run `jekyll` in the root of the repository. This will generate the site in the _site/ directory.
-* Use the less.js node module to compile the LESS and save the resulting CSS file as `_site/css/style.css`
+* Use the less.js node module to compile the LESS files and save the resulting CSS file as `_site/css/style.css`:
 
-If you have fabric installed, you can use the included `fabfile.py` (just run `prepare`). Ensure that the `lessc` binary (found in `/usr/local/lib/node_modules/less/bin/` on my machine; YMMV) is in your path. Ignore the deploy option, that's just for me.
+	lessc css/styles.less -x > _site/css/style.css
+
+If you have fabric installed, you can use the included `fabfile.py` (just run `fab prepare`). Ensure that the `lessc` binary (found in `/usr/local/lib/node_modules/less/bin/` on my machine; YMMV) is in your path. Ignore the archive/transfer/etc options; those are just there to ease deployment.
 
 Contributing
 ------------
