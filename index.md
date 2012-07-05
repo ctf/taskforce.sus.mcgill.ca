@@ -1,7 +1,7 @@
 ---
 title: Index
 layout: home
-lead: "Got a question? Stop by room 1B19 in Burnside basement. Open Monday-Friday, 9am-5pm."
+lead: "Got a question? Stop by room 1B19 in Burnside basement. Open Monday-Friday, 9am-5pm, fall and winter."
 printers:
 - 1b16a
 - 1b16b
