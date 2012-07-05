@@ -3,7 +3,7 @@ title: The office
 layout: help
 ---
 
-Our office can be found in room 1B19 (across from the elevators), in Burnside basement. Our staff consists solely of volunteers, so although we try to keep the office staffed during our opening hours, it's possible that the office will be empty at times during and outside of our official opening hours. Feel free to drop by if you have problems with a [computer](computer.html) or [printer](printing.html), [found a USB](lost-items.html) or just want to say hi. Please note that the computers within the office itself are reserved for use by staff.
+Our office can be found in room 1B19 (across from the elevators), in Burnside basement. Our staff consists solely of volunteers, so although we try to keep the office staffed during our [opening hours](#opening-hours), it's possible that the office will be empty at times during and outside of our official opening hours. Feel free to drop by if you have problems with a [computer](computer.html) or [printer](printing.html), [found a USB](lost-items.html) or just want to say hi. Please note that the computers within the office itself are reserved for use by staff.
 
 Staplers and hole punches
 -------------------------
@@ -14,6 +14,8 @@ Buying paper
 ------------
 
 You can purchase paper from us at $3.75 a ream (a package of 500 pages).
+
+<a name="opening-hours"></a>
 
 Hours
 -----
