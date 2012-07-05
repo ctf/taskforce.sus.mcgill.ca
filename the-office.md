@@ -20,4 +20,4 @@ You can purchase paper from us at $3.75 a ream (a package of 500 pages).
 Hours
 -----
 
-We're officially open from 9 to 5, Monday to Friday (except breaks and holidays), during the fall and winter terms. Outside of these hours, our door has to be closed, but there's often someone in there - just knock. Note that we hold meetings (typically lasting a half-hour or less) every {{ site.meeting_day }} at {{ site.meeting_time }}, so if you have an inquiry that isn't urgent, please come by another time.
+We're officially open from 9 to 5, Monday to Friday (except during breaks and holidays), during the fall and winter terms. Outside of these hours, our door has to be closed, but there's often someone in there - just knock. Note that we hold meetings (typically lasting a half-hour or less) every {{ site.meeting_day }} at {{ site.meeting_time }}, so if you have an inquiry that isn't urgent, please come by another time.
