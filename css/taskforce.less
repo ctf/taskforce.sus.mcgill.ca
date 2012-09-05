@@ -123,3 +123,37 @@ body {
 		margin-bottom: 0px;
 	}
 }
+
+#social-media {
+	@size: 35px;
+
+	a {
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		width: @size;
+		height: @size;
+		margin-right: 10px;
+		background: url('../img/social-media.png') no-repeat;
+	}
+
+	.icon(@x) {
+		background-position: @x 0px;
+
+		&:hover {
+			background-position: @x -@size;
+		}
+	}
+
+	#facebook {
+		.icon(0px);
+	}
+
+	#twitter {
+		.icon(-@size);
+	}
+
+	#email {
+		.icon(-@size * 2);
+	}
+}
