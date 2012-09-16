@@ -14,13 +14,12 @@ If you want to get involved, simply drop in on our meetings every {{ site.meetin
 
 Check out the [contact](contact.html) page for how to get in touch with us.
 
-2011-2012 Executive Team
+2012-2013 Executive Team
 ------------------------
 
-* **Chair:** Benjamin Webber
-* **Co-chair:** Daniel Kwak / Kristian Picon
-* **Server admin:** Qikuan Zhou
-* **Environmental coordinator:** Clarence Leung / Caroline Wu
-* **Public relations officer:** Suzie Guo
+* **Chair:** Victoria Ly
+* **Co-chair:** Kristian Picon
+* **Server admin:** Benjamin Webber
 * **Webmaster:** Wendy Liu
 * **Events coordinator:** Saurin Shah
+* **VP External:** Alice
