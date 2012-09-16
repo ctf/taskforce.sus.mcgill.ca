@@ -1,13 +1,8 @@
-from fabric.api import local, run, env
+from fabric.api import local, run, put
 
-# Usage: fab cs deploy to deploy to http://cs.mcgill.ca/~wliu65/taskforce
-
-# Environments
-
-def cs():
-	env.hosts = ['wliu65@linux.cs.mcgill.ca']
-
-# Commands
+"""
+Usage: `fab deploy` to deploy to http://taskforce.cs.mcgill.ca
+"""
 
 def prepare():
 	local('jekyll')
@@ -20,13 +15,13 @@ def archive():
 	local('tar cvzf taskforce.tar.gz _site')
 
 def transfer():
-	local('scp taskforce.tar.gz %s:~' % env.hosts[0])
+	put('taskforce.tar.gz', '~/')
 	local('rm taskforce.tar.gz')
 
 def unpack():
 	run('tar xvzf taskforce.tar.gz')
-	run('rm -rf public_html/taskforce')
-	run('mv _site public_html/taskforce')
+	run('rm taskforce.tar.gz')
+	run('cp -R _site/* ./')
 
 def deploy():
 	prepare()
