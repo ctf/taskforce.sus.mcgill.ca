@@ -3,7 +3,7 @@ title: Computers
 layout: help
 ---
 
-CTF operates over 70 computers for use by McGill students in Burnside basement, and dozens more at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
+CTF operates over 60 computers for use by McGill students, located throughout Burnside basement and at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
 
 Using the printers
 ------------------
