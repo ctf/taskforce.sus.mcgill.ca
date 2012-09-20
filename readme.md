@@ -29,6 +29,8 @@ If you have fabric installed, you can use the included `fabfile.py` (just run `f
 
 Most of the content is stored in the *.md files in the root of this directory and is formatted using [Markdown](http://daringfireball.net/projects/markdown/syntax).
 
+To edit the meeting time or day, look in `_config.yml`.
+
 ### Editing layouts
 
 The HTML files that determine the layout of the site can be found in the _layouts and the _includes directories. The `layout` attribute of a page (as configured in the [YAML front matter block](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) of a .md file) determines which file in _layouts is used to display the page. For example, if the layout specified for test.md is `default`, then the generated page test.html will use _layouts/default.html for its layout file. The files in _includes are used in conjunction with the `{% include %}` tag, which is part of Liquid (the templating language used - see the [Liquid for designers](https://github.com/shopify/liquid/wiki/liquid-for-designers) documentation for more information).
