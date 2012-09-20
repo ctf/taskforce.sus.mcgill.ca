@@ -22,4 +22,4 @@ Check out the [contact](contact.html) page for how to get in touch with us.
 * **Server admin:** Benjamin Webber
 * **Webmaster:** Wendy Liu
 * **Events coordinator:** Saurin Shah
-* **VP External:** Alice
+* **Public relations officer:** Alice Shen
