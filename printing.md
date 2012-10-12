@@ -9,7 +9,7 @@ CTF operates four printers for student use in Burnside basement, one in the hall
 Who can print?
 --------------
 
-Students in the faculties of Science or Arts and Science can use the printers, and receive 1500 print credits per semester as part of the student fees that they pay.
+Students in the faculties of Science or Arts and Science can use the printers as part of the student fees that they pay.
 
 Quota
 -----
