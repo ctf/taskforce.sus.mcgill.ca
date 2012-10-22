@@ -8,7 +8,7 @@ printers:
 - 1b17a
 - 1b18a
 - 1b18b
-- backup
+- hall-express
 no_js: "Unable to get printer information! Please enable Javascript or use another browser."
 ---
 
