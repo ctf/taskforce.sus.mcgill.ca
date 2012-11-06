@@ -14,7 +14,7 @@ Students in the faculties of Science or Arts and Science can use the printers as
 Quota
 -----
 
-Each black-and-white page costs four credits. If a print job causes you to exceed your quota, the job will still proceed, but you won't be able to print anything else until you've added enough credits. To top-up your credits, stop by [our office](the-office.html), and one of our volunteer will add 500 credits to your account for free. After three such top-ups, your account will be flagged for review, and your printing history will be reviewed by the CTF administrators to ensure that you aren't abusing the system. If you _are_ deemed to be printing unreasonably, your printing privileges will be revoked for the rest of the semester and your jobs will be redirected to uPrint.
+Each black-and-white page costs four credits. If a print job causes you to exceed your quota, the job will still proceed, but you won't be able to print anything else until you've added enough credits. To top-up your credits, stop by [our office](the-office.html), and one of our volunteers will add 500 credits to your account for free. After three such top-ups, your account will be flagged for review, and your printing history will be reviewed by the CTF administrators to ensure that you aren't abusing the system. If you _are_ deemed to be printing unreasonably, your printing privileges will be revoked for the rest of the semester and your jobs will be redirected to uPrint.
 
 Note that that the cost of printing is four credits _per page_, meaning that printing a double-sided sheet of paper costs 8 credits.
 
