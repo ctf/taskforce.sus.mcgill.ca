@@ -72,7 +72,7 @@ No food or drinks are allowed in the computer labs. Offenders will find themselv
 Computer lab hours
 ------------------
 
-Students in the Faculty of Science have 24/7 card access to Burnside and our computer labs. For out-of-faculty students, the computer labs are only unlocked between 9am and 5pm. Students with no card access will only be able to access the computer labs between those times. Burnside is open to the public between 6 a.m. and 9 p.m.
+Students in the Faculty of Science have 24/7 card access to Burnside and our computer labs. For out-of-faculty students, the computer labs are only unlocked between 9 a.m. and 5 p.m., Monday-Friday. Students with no card access will only be able to access the computer labs between those times. Burnside itself is open to the public between 6 a.m. and 9 p.m, Monday-Friday (excluding holidays).
 
 Computer problems
 -----------------
