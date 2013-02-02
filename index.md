@@ -34,4 +34,4 @@ Interested in learning how to fix printers or administer computers? Great! CTF a
 Getting help
 ------------
 
-Need help with any of our services? Feel free to come by the [office](office.html) or [email us](contact.html). You can also take a look at our service-specific documentation using the links on the right.
+Need help with any of our services? Feel free to come by the [office](the-office.html) or [email us](contact.html). You can also take a look at our service-specific documentation using the links on the right.

@@ -18,8 +18,7 @@ Check out the [contact](contact.html) page for how to get in touch with us.
 ------------------------
 
 * **Chair:** Victoria Ly
-* **Co-chair:** Kristian Picon
-* **Server admin:** Benjamin Webber
+* **Co-chair:** Saurin Shah
+* **System Administrator:** Ben Webber
 * **Webmaster:** Wendy Liu
-* **Events coordinator:** Saurin Shah
-* **Public relations officer:** Alice Shen
+* **Events Coordinator:** Mibo Zhao
