@@ -19,7 +19,7 @@ The HTML for this page is generated using the homepage block tag defined in _plu
 Who we are
 ----------
 
-CTF, or Computer Taskforce, is a McGill student group started 16 years ago with 3 computers. Our team of student volunteers now administers over 100 computers at various locations on campus and provides an economical printing service. Find out more about us on the [about](about.html) page.
+CTF, or Computer Taskforce, is a McGill student group started 16 years ago with 3 computers. Our team of student volunteers now administers over {{ site.num_computers }} computers at various locations on campus and provides an economical printing service. Find out more about us on the [about](about.html) page.
 
 Our services
 ------------

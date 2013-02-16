@@ -1,6 +1,7 @@
 markdown: rdiscount
 meeting_day: Monday
-meeting_time: "5:30"
+meeting_time: "5:00"
+num_computers: 90
 help_pages:
 - Printing
 - Computers
