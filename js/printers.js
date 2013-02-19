@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var printers = ['1b18a', '1b18b', '1b17a', '1b16a', '1b16b', 'hall-express'];
+	var printers = ['1b18a', '1b17a', '1b16a', 'hall-express'];
 	var ajaxURL = 'printers.php';
 	var updatePrinters = function() {
 		$.getJSON(ajaxURL, function(data) {
