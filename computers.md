@@ -3,7 +3,7 @@ title: Computers
 layout: help
 ---
 
-CTF operates over 60 computers for use by McGill students, located throughout Burnside basement and at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
+CTF operates over 80 computers for use by McGill students, located throughout Burnside basement and at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
 
 Using the printers
 ------------------
@@ -13,7 +13,9 @@ See [Printing](printing.html).
 Who can use them?
 -----------------
 
-All McGill students can use our computers, but some restrictions apply to non-Science or Arts & Science students. Science and Arts & Science students contribute directly to the SUS 21st Century Fund. Students from other faculties (including Nursing, Agricultural Sciences, and Kinesiology) can open an account with us for $30, which includes 1500 [printing credits](printing.html). The $30 fee also grants access to the computer labs and Burnside Hall after hours, upon request. The fee must be repaid each semester to maintain access.
+All McGill students can use our computers, but some restrictions apply to non-Science or Arts & Science students. Each semester, Science and Arts & Science students contribute directly to the SUS 21st Century Fund. This fund is used to support our labs subsidize our printing services.
+
+Unfortunately, we cannot grant students from outside the Faculties of Science and Arts & Science access to our printing services.
 
 Logging in
 ----------

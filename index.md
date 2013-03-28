@@ -4,10 +4,8 @@ layout: home
 lead: "Got a question? Stop by room 1B19 in Burnside basement. Open Monday-Friday, 9am-5pm, fall and winter."
 printers:
 - 1b16a
-- 1b16b
 - 1b17a
 - 1b18a
-- 1b18b
 - hall-express
 no_js: "Unable to get printer information! Please enable Javascript or use another browser."
 ---
@@ -19,7 +17,7 @@ The HTML for this page is generated using the homepage block tag defined in _plu
 Who we are
 ----------
 
-CTF, or Computer Taskforce, is a McGill student group started 16 years ago with 3 computers. Our team of student volunteers now administers over 100 computers at various locations on campus and provides an economical printing service. Find out more about us on the [about](about.html) page.
+CTF, or Computer Taskforce, is a McGill student group started 16 years ago with 3 computers. Our team of student volunteers now administers over {{ site.num_computers }} computers at various locations on campus and provides an economical printing service. Find out more about us on the [about](about.html) page.
 
 Our services
 ------------
@@ -34,4 +32,4 @@ Interested in learning how to fix printers or administer computers? Great! CTF a
 Getting help
 ------------
 
-Need help with any of our services? Feel free to come by the [office](office.html) or [email us](contact.html). You can also take a look at our service-specific documentation using the links on the right.
+Need help with any of our services? Feel free to come by the [office](the-office.html) or [email us](contact.html). You can also take a look at our service-specific documentation using the links on the right.
