@@ -69,7 +69,16 @@ At present, we are mainly located in Burnside basement, with 14 computers in the
 Computer lab rules
 ------------------
 
-No food or drinks are allowed in the computer labs. Offenders will find themselves locked out of CTF computers for one week. We ask you to be courteous to other students in the labs and treat our equipment gently.
+1. **No food**.
+2. **No drinks with open lids.** Drinks must be covered (for example, water bottles and thermoses are permitted).
+3. **No gaming in the labs.** This includes installed games, games run from USB drives, and Flash-based or other in-browser games.
+
+The first violation of the rules above will result in:
+
+* a verbal violation from the CTF member witnessing the violation, as well as
+* a formal warning sent by a senior CTF administrator to the user's official McGill email account.
+
+The second violation will result in loss of access to CTF computers for the remainder of the semester.
 
 Computer lab hours
 ------------------

@@ -20,16 +20,22 @@
 			<div class="row">
 				<div class="span4">
 				<img src="img/printers.png" alt="" />
-				<h6>Printer statuses</h6>
+				<h6>Printer status</h6>
 				</div>
 				<div class="span12">
 					<div class="row">
+                        <div class="printer-notice">
+                            <p>Our printing services are undergoing an overhaul so we have temporary measures in place. For the time being, we have a new printer in 1b17. You have a limit of 375 pages and you can only print from that lab.</p>
+                            <p>If you have any further questions please feel free to come by our office at 1b19.</p>
+                        </div>
+                        {% comment %}
 						{% for printer in page.printers %}
 						<div class="span3" id="printer-{{ printer }}">
 						<h3>{{ printer }}</h3>
 						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
 						</div>
 						{% endfor %}
+                        {% endcomment %}
 					</div>
 					<noscript>
 						<div class="row">
