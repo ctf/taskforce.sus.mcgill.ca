@@ -22,7 +22,7 @@ CTF, or Computer Taskforce, is a McGill student group started 16 years ago with 
 Our services
 ------------
 
-We offer unlimited [printing](printing.html) at cost for Science students, paid for by student fees, and manage [computers](computers.html) throughout campus. In addition, we provide webhosting and other services for various student societies. We also host a [yearly gaming event](events.html) for charity.
+We offer [printing](printing.html) at cost for Science students, paid for by student fees, and manage [computers](computers.html) throughout campus. In addition, we provide webhosting and other services for various student societies. We also host a [yearly gaming event](events.html) for charity.
 
 Getting involved
 ----------------
