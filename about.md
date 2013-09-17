@@ -14,11 +14,9 @@ If you want to get involved, simply drop in on our meetings every {{ site.meetin
 
 Check out the [contact](contact.html) page for how to get in touch with us.
 
-2012-2013 Executive Team
+2013-2014 Executive Team
 ------------------------
 
-* **Chair:** Victoria Ly
-* **Co-chair:** Saurin Shah
-* **System Administrator:** Ben Webber
-* **Webmaster:** Wendy Liu
-* **Events Coordinator:** Mibo Zhao
+* **Chair:** Prasanna Iyengar
+* **Co-chair:** Santina Lin
+* **System Administrator:** Wendy Liu
