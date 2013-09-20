@@ -3,10 +3,9 @@ title: Index
 layout: home
 lead: "Got a question? Stop by room 1B19 in Burnside basement. Open Monday-Friday, 9am-5pm, fall and winter."
 printers:
-- 1b16a
-- 1b17a
-- 1b18a
-- hall-express
+- 1B16
+- 1B17
+- 1B18
 no_js: "Unable to get printer information! Please enable Javascript or use another browser."
 ---
 

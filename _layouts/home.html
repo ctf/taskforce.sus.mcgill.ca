@@ -24,6 +24,7 @@
 				</div>
 				<div class="span12">
 					<div class="row">
+                        {% comment %}
                         <div class="printer-notice">
                             <p>
                             There are now printers in each of our labs:
@@ -36,14 +37,13 @@
                             to come by our office at 1b19.
                             </p>
                         </div>
-                        {% comment %}
+                        {% endcomment %}
 						{% for printer in page.printers %}
-						<div class="span3" id="printer-{{ printer }}">
+						<div class="span4" id="printer-{{ printer }}">
 						<h3>{{ printer }}</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
+						<p><span class="state down">DOWN</span>{% comment %} (<span class="jobs">?</span> job<span class="plural">s</span>){% endcomment %}</p>
 						</div>
 						{% endfor %}
-                        {% endcomment %}
 					</div>
 					<noscript>
 						<div class="row">

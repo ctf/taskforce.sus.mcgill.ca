@@ -1,9 +1,8 @@
 $(document).ready(function() {
-	var printers = ['1b18a', '1b17a', '1b16a', 'hall-express'];
 	var ajaxURL = 'printers.php';
 	var updatePrinters = function() {
-		$.getJSON(ajaxURL, function(data) {
-			if (data == null) {
+		$.getJSON(ajaxURL, function(printerData) {
+			if (printerData == null) {
 				// Not working - possibly network problems; try again in 30 seconds
 				setTimeout(function() {
 					updatePrinters();
@@ -11,17 +10,16 @@ $(document).ready(function() {
 				return;
 			}
 
-			for (i in printers) {
-				var printer = printers[i];
-				var printerData = data[printer];
+			for (var printer in printerData) {
+                console.log(printer);
+				var isWorking = printerData[printer];
 				var printerSelector = $('#printer-' + printer);
 
 				// If the state is 0, make it OK; else, DOWN
 				var stateElement = $(printerSelector).find('.state');
-				var state = printerData.state;
-				var changeState = (stateElement.hasClass('ok') && state == '1') || (stateElement.hasClass('down') && state == '0');
+				var changeState = (stateElement.hasClass('ok') && !isWorking) || (stateElement.hasClass('down') && isWorking);
 				if (changeState) {
-					if (state == '1') {
+					if (!isWorking) {
 						// Printer has gone down - change the text and the class
 						$(stateElement).text('DOWN').removeClass('ok').addClass('down');
 					} else {
@@ -29,6 +27,7 @@ $(document).ready(function() {
 					}
 				}
 
+                /*
 				// Set the number of jobs
 				var jobsElement = $(printerSelector).find('.jobs');
 				if (jobsElement.text() !== printerData.jobs) { // both are strings
@@ -46,6 +45,7 @@ $(document).ready(function() {
 						}
 					}
 				}
+                */
 			}
 
 			// Update every 5 seconds until the end of time
