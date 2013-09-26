@@ -20,14 +20,28 @@
 			<div class="row">
 				<div class="span4">
 				<img src="img/printers.png" alt="" />
-				<h6>Printer statuses</h6>
+				<h6>Printer status</h6>
 				</div>
 				<div class="span12">
 					<div class="row">
+                        {% comment %}
+                        <div class="printer-notice">
+                            <p>
+                            There are now printers in each of our labs:
+                            1b16, 1b17, and 1b18. You may print from any of
+                            these printers. There is a limit of 375 pages per
+                            student, across all printers.
+                            </p>
+                            <p>
+                            If you have any further questions please feel free
+                            to come by our office at 1b19.
+                            </p>
+                        </div>
+                        {% endcomment %}
 						{% for printer in page.printers %}
-						<div class="span2" id="printer-{{ printer }}">
+						<div class="span4" id="printer-{{ printer }}">
 						<h3>{{ printer }}</h3>
-						<p><span class="state down">DOWN</span> (<span class="jobs">?</span> job<span class="plural">s</span>)</p>
+						<p><span class="state down">DOWN</span>{% comment %} (<span class="jobs">?</span> job<span class="plural">s</span>){% endcomment %}</p>
 						</div>
 						{% endfor %}
 					</div>

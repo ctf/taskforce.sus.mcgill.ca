@@ -3,7 +3,7 @@ title: Computers
 layout: help
 ---
 
-CTF operates over 60 computers for use by McGill students, located throughout Burnside basement and at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
+CTF operates over 80 computers for use by McGill students, located throughout Burnside basement and at remote stations in Duff, Maass, Rutherford, and Stewart Biology. Most of the computers in Burnside can be found in our dedicated computer labs (rooms 1B16, 1B17 and 1B18). Additional computers are outside the computer labs in the main thoroughfare. Note that this page is still under construction&mdash;please check frequently for updates.
 
 Using the printers
 ------------------
@@ -13,7 +13,9 @@ See [Printing](printing.html).
 Who can use them?
 -----------------
 
-All McGill students can use our computers, but some restrictions apply to non-Science or Arts & Science students. Science and Arts & Science students contribute directly to the SUS 21st Century Fund. Students from other faculties (including Nursing, Agricultural Sciences, and Kinesiology) can open an account with us for $30, which includes 1500 [printing credits](printing.html). The $30 fee also grants access to the computer labs and Burnside Hall after hours, upon request. The fee must be repaid each semester to maintain access.
+All McGill students can use our computers, but some restrictions apply to non-Science or Arts & Science students. Each semester, Science and Arts & Science students contribute directly to the SUS 21st Century Fund. This fund is used to support our labs subsidize our printing services.
+
+Unfortunately, we cannot grant students from outside the Faculties of Science and Arts & Science access to our printing services.
 
 Logging in
 ----------
@@ -67,7 +69,16 @@ At present, we are mainly located in Burnside basement, with 14 computers in the
 Computer lab rules
 ------------------
 
-No food or drinks are allowed in the computer labs. Offenders will find themselves locked out of CTF computers for one week. We ask you to be courteous to other students in the labs and treat our equipment gently.
+1. **No food**.
+2. **No drinks with open lids.** Drinks must be covered (for example, water bottles and thermoses are permitted).
+3. **No gaming in the labs.** This includes installed games, games run from USB drives, and Flash-based or other in-browser games.
+
+The first violation of the rules above will result in:
+
+* a verbal violation from the CTF member witnessing the violation, as well as
+* a formal warning sent by a senior CTF administrator to the user's official McGill email account.
+
+The second violation will result in loss of access to CTF computers for the remainder of the semester.
 
 Computer lab hours
 ------------------
