@@ -19,4 +19,4 @@ Check out the [contact](contact.html) page for how to get in touch with us.
 
 * **Chair:** Prasanna Iyengar
 * **Co-chair:** Santina Lin
-* **System Administrator:** Wendy Liu
+* **Server Administrator:** Stephen Yee
